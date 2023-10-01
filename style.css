@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* header */
+
+li {
+    list-style: none;
+}
+
+nav {
+    padding: 15px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background: #00d8d8;
+}
+
+nav .content-nav {
+    display: flex;
+    line-height: 2rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+nav .content-nav ul {
+    display: flex;
+}
+
+nav .content-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+nav .content-nav ul li a:hover {
+    color: rgb(255, 86, 86);
+}
+
+.content-nav form {
+    position: relative;
+}
+
+.content-nav form input {
+    height: 35px;
+    border: none;
+    background: #fff;
+    padding: 7px;
+    outline: none;
+    margin-left: 2rem;
+    outline: none;
+    border-radius: 12px;
+}
+
+.content-nav form button {
+    padding: 5px;
+    border-radius: 12px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+
+#cart {
+    font-size: 15px;
+    color: #fff;
+    background: #a5a5a5;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 2rem;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+#cart:hover {
+    background: #fff;
+    color: #a5a5a5;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.Danhmuc li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Danhmuc li a:hover {
+    color: rgb(0, 197, 231);
+}
+
+#frmDangKy button {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    width: 200px;
+}
+
+.wrapper {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.Back-Next {
+    width: 850px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.Img-Back-Next {
+    display: none;
+}
+
+.Back-Next {
+    display: block;
+}
+
+.Lui-Back,
+.Toi-Next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.Toi-Next {
+    right: 0;
+    border-radius: 20px;
+}
+
+.Lui-Back:hover,
+.Toi-Next:hover {
+    background-color: rgba(182, 182, 182, 0.8);
+}
+
+.text {
+    font-style: bold;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.Text-Chen {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.Text-Chen:hover {
+    background-color: #717171;
+}
+
+.Text-Chen-Back-Next {
+    width: 100%;
+    float: left;
+    padding-left: 50%;
+    display: flex;
+}
+
+.Text-Chen {
+    width: 100%;
+}
+
+.Mo {
+    -webkit-animation-name: Mo;
+    -webkit-animation-duration: 1.5s;
+    animation-name: Mo;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes Mo {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes Mo {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.DangXuat {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.DangXuat a {
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 15px;
+    padding: 2px 10px 5px 10px;
+    background-color: rgb(221, 221, 221);
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}

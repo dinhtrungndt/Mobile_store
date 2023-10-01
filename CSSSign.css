@@ -1,0 +1,126 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background-color: #40f7c9;
+    background-image: linear-gradient(315deg, #63d3e2 0%, #adaedb 60%);
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
+.DangKy {
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 0px;
+}
+
+.Thongtin input {
+    border-radius: 3px;
+    display: block;
+    width: 412px;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.name {
+    padding-top: 30px;
+}
+
+.name p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 380px;
+}
+
+.username {
+    padding-top: 20px;
+}
+
+.username p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 367px;
+}
+
+.email {
+    padding-top: 20px;
+}
+
+.email p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 390px;
+}
+
+.password {
+    padding-top: 20px;
+}
+
+.password p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 350px;
+}
+
+.Vaitro {
+    padding-top: 20px;
+}
+
+.Vaitro p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 370px;
+}
+
+.Luachon select {
+    width: 429px;
+    height: 30px;
+    padding-left: 20px;
+    border: 1px solid #b9b9b9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.inputdangky {
+    padding-top: 60px;
+}
+
+.inputdangky button:hover {
+    background: rgb(255, 85, 85);
+    contain: content;
+    cursor: pointer;
+}
+
+.errorsvClass {
+    color: rgb(255, 0, 0);
+    border-radius: 3px;
+    font-size: 15px;
+    float: left;
+    padding-left: 555px;
+}
+
+.signin {
+    padding: 7px 35px 7px 35px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    float: left;
+    margin-left: 680px;
+    cursor: pointer;
+}
+
+.input-error {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.DangNhapTK {
+    float: left;
+    padding-top: 10px;
+    display: flex;
+    font-size: 15px;
+    margin-left: 550px;
+}

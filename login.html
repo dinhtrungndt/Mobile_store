@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CssLogin.css" rel="stylesheet">
+    <link href="4la.png" rel="icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/JS/ThaySon/BaiLap_NguyenDinhTrung_PK02294/ASM_NguyenDinhTrung_PK02294/Img/4la.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <div class="dangnhap" id="LogIn">
+        <h2 style="color: rgb(56, 56, 56); font-size: 35px;">Log In</h2>
+        <div class="Thongtin">
+            <div class="username">
+                <p>Username: </p>
+                <input id="username" type="Ho Va Ten" placeholder="Choose a username">
+                <span id="errorname" class="errorClass"></span>
+                <i class="fa fa-address-card-o"></i>
+            </div>
+            <div class="password">
+                <p>Password: </p>
+                <input id="password" type="password" placeholder="Enter a strong password">
+                <span id="errorpass" class="errorClass"></span>
+                <i id="eye" class="fa fa-eye"></i>
+            </div>
+        </div>
+        <form class="inputsign">
+            <button type="submit" onclick=" dangnhap()" id="idsign">Login</button>
+        </form>
+        <div class="DangKyTK">
+            <p>Bạn chưa có tài khoản ?</p>
+            <a href="SignUp.html">Đăng ký</a>
+        </div>
+    </div>
+</body>
+<script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="JS_Sign_Login.js"></script>
+<script src="JSLogin.js"></script>
+
+</html>

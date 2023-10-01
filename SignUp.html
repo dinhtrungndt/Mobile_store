@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSSSign.css" rel="stylesheet">
+    <link href="4la.png" rel="icon">
+    <title> Sign Up</title>
+</head>
+
+<body>
+    <div class="DangKy" id="SignUp">
+        <h2 style="color: rgb(56, 56, 56); font-size: 30px;">Sign Up</h2>
+        <div class="Thongtin">
+            <div class="name">
+                <p>Name: </p>
+                <input id="name" type="text" placeholder="Name">
+                <span id="errorsv" class="errorsvClass"></span>
+            </div>
+            <div class="username">
+                <p>Username: </p>
+                <input id="username" type="Ho Va Ten" placeholder="Username">
+                <span id="errorhvt" class="errorsvClass"></span>
+            </div>
+            <div class="email">
+                <p>Email: </p>
+                <input id="email" type="email" placeholder="Email">
+                <span id="errormail" class="errorsvClass"></span>
+            </div>
+            <div class="password">
+                <p>Password: </p>
+                <input id="password" type="password" placeholder="Password">
+                <span id="errorpass" class="errorsvClass"></span>
+            </div>
+        </div>
+        <div class="Vaitro">
+            <p>Vai trò</p>
+        </div>
+        <div class="Luachon">
+            <select class="form-select" id="role" aria-label="Default select example">
+            <option selected>select role</option>
+            <option value="admin">admin</option>
+            <option value="user">user</option>
+        </select>
+        </div>
+        <div class="DangNhapTK">
+            <p>Bạn đã có tài khoản ?</p>
+            <a href="login.html">Đăng Nhập</a>
+        </div>
+        <form class="inputdangky">
+            <button onclick="dangky()" type="submit" class="signin">Sign Up</button>
+            <span id="errorghichu" class="errorsvClass"></span>
+        </form>
+    </div>
+</body>
+
+<script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+<script src="JSSign.js"></script>
+
+</html>
