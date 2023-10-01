@@ -1,4 +1,4 @@
-# This is a mobile store application, the website is divided into 2 roles
+# This is a mobile store application, the website is divided into 2 roles: https://by.tn/mobile-store
 
 # Brief summary of the website:
 
