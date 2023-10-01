@@ -1,9 +1,9 @@
-# This is a mobile store application
+# This is a mobile store application, the website is divided into 2 roles
 
 # Brief summary of the website:
 
 # Admin:
-![admin](https://github.com/dinhtrungndt/Mobile_store/assets/127390593/06e6c75e-8997-4ca8-b0df-14054a430123)
+![admin](https://github.com/dinhtrungndt/Mobile_store/assets/127390593/cfd4e2b3-3d1e-4609-9e39-20e642f9ceb6)
 
 # User:
-![user](https://github.com/dinhtrungndt/Mobile_store/assets/127390593/355bf302-5942-4166-bd61-846420d9a584)
+![user](https://github.com/dinhtrungndt/Mobile_store/assets/127390593/7d7ede85-a560-4225-a721-e098e2a57707)
