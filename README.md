@@ -1,5 +1,5 @@
 # This is a mobile store application 🎫🛒, the website is divided into 2 roles: https://by.tn/mobile-store
-
+# demo: https://dinhtrungndt.github.io/Mobile_store/index.html
 # Brief summary of the website 🙌:
 
 # Admin 👩🏻‍💻:
